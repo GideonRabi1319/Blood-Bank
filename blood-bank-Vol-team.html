@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Volunteer Team Registration</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-7 bg-white p-4 rounded shadow">
+        <h2 class="mb-4 text-center text-success">Volunteer Team Registration</h2>
+        <form action="connect3.php" method="post">
+          <div class="mb-3">
+            <label for="name" class="form-label">Team Leader Name</label>
+            <input type="text" class="form-control" name="n" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" name="e" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="number" class="form-control" name="a" placeholder="Enter your age">
+          </div>
+          <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <textarea class="form-control" name="ad" rows="3" placeholder="Enter your address"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="members" class="form-label">Number of Team Members</label>
+            <input type="number" class="form-control" name="m" placeholder="Enter number of members in your team">
+          </div>
+          <div class="mb-4">
+            <label for="reason" class="form-label">Reason to Join</label>
+            <textarea class="form-control" name="r" rows="4" placeholder="Why do you want to join the volunteer team?"></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-success">Submit Application</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
